@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --text-font-family: "Roboto", sans-serif;
+    --title-font-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--text-font-family);
+    color:#212121
+}
+
+.global-header .main-navigation a,
+.global-header .main-navigation a:visited {
+    color: #212121;
+
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.global-header .web-studio :visited {
+    color:black
+}
+
+.global-header .web-studio span {
+    color: #2196F3
+}
+
+.global-header .web-studio {
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.global-header .main-navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.global-header .main-navigation a.active {
+    color: #2196F3;
+}
+
+.global-header .mail-to {
+    color: #757575
+}
+
+.global-header .mail-to {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.global-header .phone-number {
+    color: #757575;
+
+}
+
+.global-header .phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.buttons button.active {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:white
+}
+
+.buttons button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: var(--text-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121 
+}
+
+.technoduck h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.technoduck p {
+    color:#757575
+}
+
+.technoduck p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em; 
+}
+
+.poster h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;  
+}
+
+.poster p {
+    color:#757575
+
+}
+
+.poster p{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em; 
+}
+
+.seafood h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;  
+}
+
+.seafood p{
+    color: #757575;
+}
+
+.seafood p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em; 
+}
+
+.project-prime h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.project-prime p {
+    color: #757575;
+}
+
+.project-prime p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+}
+
+.project-boxes h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.project-boxes p {
+    color: #757575;
+}
+
+.project-boxes p {
+    font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+}
+
+.inspiration-borders h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.inspiration-borders p {
+    color: #757575;
+}
+
+.inspiration-borders p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.limited-edition h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.limited-edition p {
+    color: #757575;
+}
+
+.limited-edition p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.project-lab h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.project-lab p {
+    color: #757575;
+}
+
+.project-lab p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.growing-business h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.growing-business p {
+    color: #757575;
+}
+
+.growing-business p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    background-color: #2F303A;
+    ;
+}
+
+.address b {
+    color:#FFFFFF;
+}
+
+.address b {
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.address span {
+    color: #2196F3;
+}
+
+.address p {
+    color: #FFFFFF;
+}
+
+.address p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
