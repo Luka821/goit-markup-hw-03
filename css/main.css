@@ -19,6 +19,12 @@ ul.no-bullets {
     margin: 0;
 }
 
+ul.no-bullets-two {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .main-navigation  {
     letter-spacing: 0.02em;
     line-height: 16px;
@@ -27,12 +33,39 @@ ul.no-bullets {
 
 }
 
+.global-header .main-navigation {
+    display: flex;
+    padding: 32px 32px;
+
+}
+
+.main-navigation .no-bullets-two {
+    margin-left: 368px;
+}
+
+.global-header .main-navigation .web-studio a {
+    display: flex;
+    padding: 24px 25px;
+    padding-left: 215px;
+}
+
+.main-navigation ul {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.main-navigation ul a {
+    margin-left: 40px;
+}
+
 .global-header a.active {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
+
 
 .global-header .phone-number {
     color: #757575
@@ -44,7 +77,6 @@ ul.no-bullets {
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-
 
 
 .global-header .web-studio a {
