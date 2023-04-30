@@ -22,6 +22,39 @@ ul.no-bullets {
     margin: 0;
 }
 
+ul.no-bullets-two {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.global-header .main-navigation {
+    display: flex;
+    padding: 32px 32px;
+}
+
+.main-navigation .no-bullets-two {
+    display: flex;
+    margin-left: 600px;
+}
+
+.global-header .main-navigation .web-studio a {
+    display: flex;
+    padding: 24px 25px;
+    padding-left: 215px;
+}
+
+
+.main-navigation ul {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.main-navigation ul a {
+    margin-left: 40px;
+}
+
 .global-header .web-studio :visited {
     color:black
 }
