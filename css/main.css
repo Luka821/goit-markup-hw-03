@@ -153,13 +153,28 @@ button {
 
 .footer b {
     display: flex;
-    padding: 60px;
+    align-content: center;
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 28px;
+    margin: 0%;
+    width: 145px;
+    height: 31px;
 }
 
+.contacts {
+    position: relative;
+}
+
+.contacts a {
+    padding: 215px;
+}
+   
+
 .address {
-    width: 207px;
-    height: 16px;
- }
+    position: relative;
+    padding-left: 215px;
+}
 
 .flex-container p {
     color: #757575;
