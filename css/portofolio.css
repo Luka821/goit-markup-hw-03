@@ -28,22 +28,20 @@ ul.no-bullets-two {
     margin: 0;
 }
 
+.main-navigation {
+    width: 1600px;
+    height: 80px;
+}
+
 .global-header .main-navigation {
     display: flex;
-    padding: 32px 32px;
 }
 
 .main-navigation .no-bullets-two {
     display: flex;
     margin-left: 600px;
-}
 
-.global-header .main-navigation .web-studio a {
-    display: flex;
-    padding: 24px 25px;
-    padding-left: 215px;
 }
-
 
 .main-navigation ul {
     display: flex;
@@ -52,10 +50,16 @@ ul.no-bullets-two {
 }
 
 .main-navigation ul a {
+    display: flex;
     margin-left: 40px;
 }
 
-.global-header .web-studio :visited {
+.global-header .web-studio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.global-header .web-studio a:visited{
     color:black
 }
 

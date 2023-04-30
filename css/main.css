@@ -40,7 +40,7 @@ ul.no-bullets-two {
 
 .main-navigation .no-bullets-two {
     display: flex;
-    margin-left: 600px;
+    padding-left: 600px;
 }
 
 .global-header .main-navigation .web-studio a {
