@@ -107,36 +107,46 @@ button {
 }
 
 .what-do div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row;
-    column-gap: 30px;
-    row-gap: 50px;
-    padding-bottom: 94px;
-    justify-content: center;
-    
+   display: flex;
+   justify-content: center;
+   padding-bottom: 94px;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: row;
+   column-gap: 30px;
+   row-gap: 50px;
+   padding-top: 50px;
+   padding-bottom: 94px;
 }
 
 .our-team {
     column-gap: 30px;
-    row-gap: 50px;
-    
+    row-gap: 50px;   
 }
+
 
 .flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;  
   }
 
-  .flex-container div {
-    row-gap: 50px;
-    column-gap: 30px;
-    width: 270px;
-    height: 260px;
-    margin: 30px;
+  .our-team-figure h4 {
+    text-align: center; 
+  }
+
+
+  .our-team-figure p {
+    text-align: center;
+  }
+
+  .our-team-figure {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  .our-team-figure {
+    margin-right: 30px;
   }
 
 .flex-container {
@@ -166,14 +176,13 @@ button {
     position: relative;
 }
 
-.contacts a {
-    padding: 215px;
+.contacts p {
+    padding-left: 215px;
 }
    
 
 .address {
     position: relative;
-    padding-left: 215px;
 }
 
 .flex-container p {
@@ -257,7 +266,8 @@ h1 {
 }
 
 button:hover {
-    box-shadow: 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow:  3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-duration: 0.1s;
 }
 
 .text {

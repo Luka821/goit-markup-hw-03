@@ -20,14 +20,15 @@
         </nav>
     </header>
     <body>
-        <main>
-           <span class="buttons">
-            <button class="active" type="button">All</button>
-            <button type="button">Web-sites</button>
-            <button type="button">Apps</button>
-            <button type="button">Design</button>
-            <button type="button">Marketing</button>
-           </span>
+        <main>  
+           <ul class="buttons">
+            <li><button class="active" type="button"><span class="text">All</span></button></li>
+            <li><button class="web-sites" type="button"><span class="text">Web-sites</span></button></li>
+            <li><button class="apps" type="button"><span class="text">Apps</span></button></li>
+            <li><button class="design" type="button"><span class="text">Design</span></button></li>
+            <li><button class="marketing" type="button"><span class="text">Marketing</span></button></li>
+           </ul>
+           <section class="products-list">
            <div class="technoduck"> 
             <img src="images/portofolio-images/technoduck.png" alt="technoduck" width="370" height="294">
             <h4>Technoduck</h4>
@@ -73,12 +74,15 @@
             <h4>Growing Business</h4>
             <p>Apps</p> 
            </div>
-           <address class="address">
-            <b><span>Web</span>Studio</b>
-            <p>695 Park Ave, NY 10065, USA</p>
-           </address>
+          </section>
         </main>
         <footer class="footer">
-            <p><small><a href="mailto:info@devstudio.com">info@devstudio.com</a></small></p>
-            <p><small><a href="tel:+1212-772-4150">+1 212-772-4150</a></small></p>
-           </footer>  
+            <b><span>Web</span>Studio</b> 
+           <span class="contacts">
+            <address class="address">
+             <p>695 Park Ave, NY 10065, USA</p>
+            </address>
+             <p class="footer-email"><small><a href="mailto:info@devstudio.com">info@devstudio.com</a></small></p>
+             <p><small><a href="tel:+1212-772-4150">+1 212-772-4150</a></small></p>
+           </span>    
+          </footer>  

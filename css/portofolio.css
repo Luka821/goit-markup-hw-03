@@ -16,6 +16,12 @@ body {
 
 }
 
+.buttons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 ul.no-bullets {
     list-style-type: none;
     padding: 0;
@@ -29,20 +35,34 @@ ul.no-bullets-two {
 }
 
 .global-header {
-    width: 1600px;
-    height: 80px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 
+.main-navigation  {
+    letter-spacing: 0.02em;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
 .global-header .main-navigation {
     display: flex;
+    padding: 32px 32px;
 }
 
 .main-navigation .no-bullets-two {
     display: flex;
-    margin-left: 600px;
-
+    padding-left: 600px;
 }
+
+.global-header .main-navigation .web-studio a {
+    display: flex;
+    padding: 24px 25px;
+    padding-left: 215px;
+}
+
 
 .main-navigation ul {
     display: flex;
@@ -51,13 +71,161 @@ ul.no-bullets-two {
 }
 
 .main-navigation ul a {
-    display: flex;
     margin-left: 40px;
 }
 
-.global-header .web-studio {
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 56px;
+}
+
+.active {
+    margin-right: 8px;
+}
+
+.web-sites {
+    margin-right: 8px;
+}
+
+.apps {
+    margin-right: 8px;
+}
+
+.design {
+    margin-right: 8px;
+}
+
+.marketing {
+    margin-right: 8px;
+}
+
+.products-list {
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+    padding-left: 215px;
+    padding-bottom: 94px;
+}
+
+.technoduck {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.technoduck img {
+    justify-content: center;
+}
+
+.poster {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.poster img {
+    justify-content: center;
+}
+
+.seafood {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.seafood img {
+    justify-content: center;
+}
+
+.project-prime {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.project-prime img {
+    justify-content: center;
+}
+
+.project-boxes {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.project-boxes img {
+    justify-content: center;
+}
+
+.inspiration-borders {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.inspiration-borders img {
+    justify-content: center;
+}
+
+.limited-edition {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.limited-edition img {
+    justify-content: center;
+}
+
+.project-lab {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.project-lab img {
+    justify-content: center;
+}
+
+.growing-business {
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.growing-business img {
+    justify-content: center;
+}
+
+.footer {
+    height: 251px;
+}
+
+.footer b {
+    display: flex;
+    align-content: center;
+    padding-top: 60px;
+    padding-left: 215px;
+    padding-bottom: 28px;
+    margin: 0%;
+    width: 145px;
+    height: 31px;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts p {
+    padding-left: 215px;
+}
+   
+
+.address {
+    position: relative;
+}
+
+.products-list h4 {
+    padding-left: 24px;
+}
+
+.products-list p {
+    padding-left: 24px;
 }
 
 .global-header .web-studio a:visited{
@@ -117,6 +285,7 @@ a:link {
 .buttons button.active {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-duration: 0.1s;
     border-radius: 4px;
     font-family: var(--text-font-family);
     font-weight: 500;
@@ -125,6 +294,18 @@ a:link {
     text-align: center;
     letter-spacing: 0.03em;
     color:white
+}
+
+.buttons button {
+    width: 120px;
+    height: 38px;    
+    border: none;
+}
+
+button:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
 
 .buttons button {
@@ -137,7 +318,7 @@ a:link {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121 
-}
+}    
 
 .technoduck h4 {
     font-weight: 700;
@@ -307,11 +488,11 @@ a:link {
     ;
 }
 
-.address b {
+.footer b {
     color:#FFFFFF;
 }
 
-.address b {
+.footer b {
     font-family: var(--title-font-family);
     font-style: normal;
     font-weight: 700;
@@ -320,7 +501,7 @@ a:link {
     letter-spacing: 0.03em;
 }
 
-.address span {
+.footer span {
     color: #2196F3;
 }
 
