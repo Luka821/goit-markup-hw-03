@@ -44,12 +44,11 @@ ul.no-bullets-two {
     line-height: 16px;
     font-size: 14px;
     font-weight: 500;
-
-}
+}    
 
 .global-header .main-navigation {
     display: flex;
-    padding: 32px 32px;
+    margin-bottom: 32px;
 }
 
 .main-navigation .no-bullets-two {
@@ -59,15 +58,15 @@ ul.no-bullets-two {
 
 .global-header .main-navigation .web-studio a {
     display: flex;
-    padding: 24px 25px;
-    padding-left: 215px;
+    margin-left: 215px;
+    margin-right: 93px;
+    padding-top: 24px;
 }
 
 
 .main-navigation ul {
     display: flex;
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .main-navigation ul a {
@@ -228,6 +227,12 @@ ul.no-bullets-two {
     padding-left: 24px;
 }
 
+.no-bullets-two .phone-number {
+    display: flex;
+    width: 113px;
+    height: 16px;
+}
+
 .global-header .web-studio a:visited{
     color:black
 }
@@ -245,7 +250,7 @@ ul.no-bullets-two {
 }
 
 .global-header .main-navigation {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;

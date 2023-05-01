@@ -25,6 +25,13 @@ ul.no-bullets-two {
     margin: 0;
 }
 
+.no-bullets-two .phone-number {
+    display: flex;
+    width: 113px;
+    height: 16px;
+}
+
+
 .main-navigation  {
     letter-spacing: 0.02em;
     line-height: 16px;
@@ -39,7 +46,6 @@ ul.no-bullets-two {
 
 .global-header .main-navigation {
     display: flex;
-    padding: 32px 32px;
 }
 
 .main-navigation .no-bullets-two {
@@ -49,20 +55,20 @@ ul.no-bullets-two {
 
 .global-header .main-navigation .web-studio a {
     display: flex;
-    padding: 24px 25px;
-    padding-left: 215px;
+    margin-left: 215px;
+    margin-right: 93px;
+    padding-top: 24px;
 }
-
 
 .main-navigation ul {
     display: flex;
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .main-navigation ul a {
     margin-left: 40px;
 }
+
 
 .global-header a.active {
     font-weight: 500;
