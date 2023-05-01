@@ -28,10 +28,11 @@ ul.no-bullets-two {
     margin: 0;
 }
 
-.main-navigation {
+.global-header {
     width: 1600px;
     height: 80px;
 }
+
 
 .global-header .main-navigation {
     display: flex;
