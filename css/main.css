@@ -33,6 +33,10 @@ ul.no-bullets-two {
 
 }
 
+.global-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .global-header .main-navigation {
     display: flex;
     padding: 32px 32px;
